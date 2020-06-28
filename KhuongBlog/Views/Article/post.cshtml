@@ -1,0 +1,9 @@
+﻿@model KhuongBlog.Models.Article;
+@{
+    Layout = "_Layout1";
+    ViewBag.Title =  "Khuong " + Model.Title ;
+}
+<div>
+    <h1>@Model.Title</h1>
+    @Model.Content
+</div>
